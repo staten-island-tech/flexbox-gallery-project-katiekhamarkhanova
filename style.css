@@ -20,9 +20,10 @@ h1 {
     background-color: lightpink;
     height: 53vh;
     justify-content: space-around;
-    margin: 4rem 0;
+    margin: 3rem 0;
     border-radius: 20px;
     filter: drop-shadow(20px 15px 10px rgb(172, 62, 98));
+    transition: all 0.5s;
 }
 .card-title {
     font-size: 2.2rem;
@@ -54,8 +55,14 @@ h1 {
     font-size: 60px;
     text-align: center;
     margin: 2rem;
-    color: palevioletred
+    color: palevioletred;
+    text-decoration:underline;
 }
 .card:hover {
     opacity: 75%;
+    transform:  translateY(-11px);
+}
+#lastimg {
+    justify-content: center;
+    opacity: 90%;
 }
