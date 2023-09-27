@@ -6,7 +6,6 @@ body {
 }
 h1 {
     font-size: 1rem 0;
-    animation: 3s infinite alternate slidein;
 }
 .card-img {
     width: 80%;
@@ -59,4 +58,21 @@ h1 {
 #lastimg {
     justify-content: center;
     opacity: 90%;
+}
+#firstcard:hover {
+    background-color: plum;
+    filter: drop-shadow(20px 15px 10px purple);
+    transform:  translateY(0px);
+}
+#secondcard:hover {
+    transition:ease-out 1s;
+    opacity: 100%;
+    transform: translateX(14px);
+}
+#thirdcard {
+    filter:grayscale(100%);
+}
+#thirdcard:hover {
+    filter: grayscale(0%);
+    opacity: 100%;
 }
