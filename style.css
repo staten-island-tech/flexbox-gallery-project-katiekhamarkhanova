@@ -6,6 +6,7 @@ body {
 }
 h1 {
     font-size: 1rem 0;
+    animation: 7.5s linear infinite alternate titleanimation;
 }
 .card-img {
     width: 80%;
@@ -31,6 +32,7 @@ h1 {
 .card-desc {
     font-size: 1.3rem;
     padding: 2rem;
+    margin-bottom: 2rem;
     color: rgb(172, 62, 98);
 }
 .flex-container {
@@ -76,3 +78,18 @@ h1 {
     filter: grayscale(0%);
     opacity: 100%;
 }
+#fourthcard:hover {
+    transform: scale(0.8);
+}t
+#fifthcard:hover {
+    transform: rotateY(180deg);
+}
+
+@keyframes titleanimation {
+    from {
+      transform: translateX(-40vh);
+    }
+    to {
+      transform: translateX(40vh);
+    }
+  }
