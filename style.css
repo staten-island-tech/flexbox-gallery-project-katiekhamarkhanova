@@ -9,11 +9,11 @@ h1 {
     animation: 7.5s linear infinite alternate titleanimation;
 }
 .card-img {
-    width: 80%;
+    width: 50%;
     border-radius: 20px;
 }
 .card {
-    width:22%;
+    width:52%;
     display: flex;
     flex-direction: column;
     align-items: center;
